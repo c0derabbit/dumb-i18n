@@ -1,0 +1,21 @@
+{
+  "name": "dumb-i18n",
+  "version": "0.1.3",
+  "description": "a dumb i18n hook",
+  "main": "./dist/index.js",
+  "repository": "https://github.com/c0derabbit/dumb-i18n",
+  "author": "c0derabbit <ekov@pm.me>",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "react": "^16.13.1",
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-preset-minify": "^0.5.1"
+  },
+  "scripts": {
+    "build": "babel src -d dist"
+  }
+}
