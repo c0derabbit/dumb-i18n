@@ -1,6 +1,8 @@
 node_modules
 yarn.lock
+yarn-error.log
+coverage
 .eslintcache
 .DS_Store
 tags
-dist
+tags.*
